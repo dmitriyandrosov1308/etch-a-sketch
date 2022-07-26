@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(223, 158, 223);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    border: solid 1px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.square {
+    border: solid 1px;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+}
+
+.colors {
+    margin-top: 15px;
+    display: inline-flex;
+}
+
+#size {
+    align-self: center;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+#color-picker {
+    width: 50px;
+    height: 50px;
+}
+
+#random-color {
+    margin-left: 5px;
+}
+
+#hover-mode {
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 24px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    margin-bottom: 15px;
+}
